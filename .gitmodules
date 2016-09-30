@@ -1,0 +1,3 @@
+[submodule "mt7610u_wifi_sta_v3002_dpo_20130916"]
+	path = mt7610u_wifi_sta_v3002_dpo_20130916
+	url = https://github.com/Myria-de/mt7610u_wifi_sta_v3002_dpo_20130916.git
