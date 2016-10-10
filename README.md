@@ -1,10 +1,14 @@
 First run this. It will take forever. This is pulling down
 the `.h` files for your kernel. Rasbian doesn't use the same
 ones as the regular linux kernel. Ugh.
-`sudo apt-get install raspberrypi-kernel-headers`
+```
+sudo apt-get install raspberrypi-kernel-headers
+```
 
 Then pull down git and your build essential if you don't have them already.
-`sudo apt-get install git build-essential`
+```
+sudo apt-get install git build-essential
+```
 
 Now clone this repo, and install the driver
 ```
@@ -15,7 +19,9 @@ sudo make install
 ```
 
 Copy the chipset `.dat` in to your wireless chipsets folder
-`sudo cp RT2870STA.dat  /etc/Wireless/RT2870STA/RT2870STA.dat`
+```
+sudo cp RT2870STA.dat  /etc/Wireless/RT2870STA/RT2870STA.dat
+```
 
 At this point, after a reboot you should see the device as
 `ra0` in your `ip link` list. Configure it like you would
