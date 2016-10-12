@@ -7,7 +7,7 @@ sudo apt-get install raspberrypi-kernel-headers
 sudo apt-get install git build-essential
 
 #Install the driver
-mt7610u_wifi_sta_v3002_dpo_20130916
+cd mt7610u_wifi_sta_v3002_dpo_20130916
 make
 sudo make install
 
