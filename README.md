@@ -12,7 +12,7 @@ sudo apt-get install git build-essential
 
 Now clone this repo, and install the driver
 ```
-git clone --recursive https://gitlab.com/makers/tplink-t2uh-pi
+git clone --recursive https://github.com/rspandolfi/tplink-t2uh-pi.git
 cd tplink-t2uh-pi/mt7610u_wifi_sta_v3002_dpo_20130916
 make
 sudo make install
